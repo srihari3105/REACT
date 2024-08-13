@@ -1,0 +1,21 @@
+function CE2()
+{
+    let myObject={name:"Madras"};
+    let newObject=myObject;
+    myObject.name="Chennai";
+    let myArray=["a","e","i","o"];
+    let vArray=myArray;
+    myArray.push("u");
+    console.log(newObject);
+    console.log(vArray);
+    alert("Check the console output!");
+}
+function Day1ce2(){
+    return(
+        <div>
+            <p>Reference Data Types use same memory</p>
+            <button onClick={CE2}>Reference Data Types</button>
+        </div>
+    )
+}
+export default Day1ce2;
