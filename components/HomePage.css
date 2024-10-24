@@ -1,0 +1,87 @@
+.home-container {
+  text-align: center;
+  padding: 2rem;
+  background-image: url('https://tse4.mm.bing.net/th?id=OIP.dU386lzznSAnXbYnxIBSywHaE8&pid=Api&P=0&h=220'); /* Replace with your background image URL */
+  background-size: cover;
+  background-position: center;
+  color: #f0f0f0; /* Light gray for better readability on dark backgrounds */
+}
+
+.hero-section {
+  padding: 4rem 2rem;
+  background: rgba(0, 0, 0, 0.5); /* Slightly lighter overlay for improved text visibility */
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+.hero-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero-section h1 {
+  font-size: 3.2rem;
+  margin: 0;
+  color: #d6d6d6; /* Soft light gray for the heading */
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  color: #cccccc; /* Subtle gray for better readability */
+}
+
+.button {
+  display: inline-block;
+  background-color: #8bc34a; /* Soft green color for the button */
+  color: white;
+  padding: 1rem 2.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #7cb342; /* Slightly darker green shade on hover */
+}
+
+.auth-links {
+  margin-top: 2rem;
+}
+
+.auth-links .button {
+  background-color: #4caf50; /* Subtle green color for authentication buttons */
+  margin: 0 0.5rem;
+}
+
+.auth-links .button:hover {
+  background-color: #388e3c; /* Darker green shade on hover */
+}
+
+.services-section {
+  padding: 2rem;
+  background-color: #f5f5f5; /* Light gray background for the services section */
+  color: #333; /* Dark text color for contrast */
+}
+
+.services-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  color: #8bc34a; /* Soft green color for the heading */
+}
+
+.service {
+  margin-bottom: 2rem;
+}
+
+.service h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: #8bc34a; /* Matching soft green color for service titles */
+}
+
+.service p {
+  font-size: 1rem;
+  line-height: 1.6;
+}

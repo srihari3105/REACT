@@ -1,0 +1,113 @@
+
+.booking-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ececec, #f8f9fa);
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+h2 {
+    margin-bottom: 25px;
+    color: #007bff;
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    animation: fadeInDown 0.8s ease-in-out;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    gap: 20px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(20px);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 1s ease-in-out;
+}
+
+label {
+    font-size: 16px;
+    color: #495057;
+    font-weight: 600;
+}
+
+select, input[type="date"] {
+    padding: 12px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.25);
+    color: #495057;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    backdrop-filter: blur(15px);
+}
+
+select:focus, input[type="date"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+    outline: none;
+    background: rgba(255, 255, 255, 0.35);
+}
+
+.submit-button {
+    padding: 12px;
+    background: linear-gradient(135deg, #28a745, #218838);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.submit-button:hover {
+    background: linear-gradient(135deg, #218838, #1e7e34);
+    transform: translateY(-3px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.submit-button:active {
+    background: linear-gradient(135deg, #1e7e34, #1c7430);
+    transform: translateY(0);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@media (max-width: 768px) {
+    .booking-form {
+      width: 100%;
+      padding: 20px;
+    }
+  }

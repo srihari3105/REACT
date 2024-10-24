@@ -1,0 +1,50 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0f7fa; /* Soft teal background for a refreshing look */
+  }
+  
+  .login-form {
+    background-color: #ffffff; /* Clean white background */
+    padding: 2rem;
+    border-radius: 12px; /* Slightly more rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Softer shadow for a lifted effect */
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: #00796b; /* Soft teal color for the heading */
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #b0bec5; /* Subtle border color */
+    border-radius: 6px; /* Slightly rounded corners for inputs */
+    font-size: 1rem;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #00796b; /* Soft teal color for the button */
+    color: white;
+    border: none;
+    border-radius: 6px; /* Matching rounded corners */
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-form button:hover {
+    background-color: #004d40; /* Darker teal on hover for better contrast */
+  }
+  
+  
